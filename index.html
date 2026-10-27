@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Report Santri - Beranda</title>
+    <!-- Bootstrap CSS Local -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- 1. NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary fs-4" href="index.html">
+                E-Report <span class="text-dark fw-normal">Santri</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-lg-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold text-primary" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#service">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#reports">Laporan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+                <div class="ms-lg-3">
+                    <a href="statistik.html" class="btn btn-primary px-4 rounded-pill shadow-sm">
+                        <i class="bi bi-box-arrow-in-right me-2"></i>Admin Area
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO -->
+    <header class="py-5 bg-light border-bottom">
+        <div class="container py-md-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill fw-semibold mb-3">Sistem Informasi Pesantren</span>
+                    <h1 class="display-4 fw-bold text-dark lh-base mb-3">Layanan Pengaduan & Kedisiplinan Santri Terpadu</h1>
+                    <p class="lead text-secondary mb-4">Platform digital resmi IDN Boarding School untuk memantau, mencatat, dan melaporkan kedisiplinan serta aktivitas santri secara transparan dan akurat.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#reports" class="btn btn-primary btn-lg px-4 shadow-sm">Lihat Laporan</a>
+                        <a href="#about" class="btn btn-outline-secondary btn-lg px-4">Pelajari Sistem</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="p-5 bg-white rounded-4 shadow-sm border text-center">
+                        <i class="bi bi-shield-lock text-primary display-1 mb-3 d-block"></i>
+                        <h4 class="fw-bold text-dark mb-2">E-Report Santri</h4>
+                        <p class="text-muted small mb-0">Aman, Cepat, dan Terstruktur untuk Lingkungan Pesantren</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. ABOUT -->
+    <section id="about" class="py-5">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="p-4 bg-primary text-white rounded-4 shadow-sm">
+                        <h3 class="fw-bold mb-3">Tentang Platform</h3>
+                        <p class="opacity-90 mb-0">E-Report Santri dikembangkan untuk menjawab kebutuhan digitalisasi di lingkungan pesantren modern, memastikan setiap catatan dan laporan kedisiplinan tertib terdokumentasi.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="fw-bold text-dark mb-3">Mewujudkan Lingkungan Pesantren yang Disiplin & Transparan</h2>
+                    <p class="text-secondary mb-4">
+                        Sistem ini dirancang untuk memudahkan pengurus, musyrif, dan administrator dalam mengelola rekapitulasi pelanggaran maupun prestasi santri secara real-time. Dengan integrasi data yang rapi, evaluasi harian dapat dilakukan dengan lebih efektif.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <h6 class="fw-bold text-dark mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Pencatatan Akurat</h6>
+                                <p class="text-muted small mb-0">Data laporan tercatat rapi berdasarkan kategori dan waktu.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <h6 class="fw-bold text-dark mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Akses Terpusat</h6>
+                                <p class="text-muted small mb-0">Pengelolaan admin yang mudah melalui dashboard khusus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SERVICE -->
+    <section id="service" class="py-5 bg-light border-top border-bottom">
+        <div class="container py-4">
+            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                <h2 class="fw-bold text-dark mb-2">Layanan Utama</h2>
+                <p class="text-muted">Fitur dan layanan unggulan yang tersedia dalam sistem E-Report</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4">
+                        <div class="card-body">
+                            <div class="bg-primary text-white rounded-3 d-inline-flex p-3 mb-3">
+                                <i class="bi bi-journal-text fs-3"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Input Laporan Harian</h5>
+                            <p class="text-muted small mb-0">Pencatatan laporan kedisiplinan dan kejadian santri secara langsung oleh pengelola sistem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4">
+                        <div class="card-body">
+                            <div class="bg-success text-white rounded-3 d-inline-flex p-3 mb-3">
+                                <i class="bi bi-bar-chart-line fs-3"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Statistik & Grafik</h5>
+                            <p class="text-muted small mb-0">Visualisasi data laporan per bulan dan persentase status penyelesaian laporan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 p-4">
+                        <div class="card-body">
+                            <div class="bg-warning text-dark rounded-3 d-inline-flex p-3 mb-3">
+                                <i class="bi bi-gear-wide-connected fs-3"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Pengaturan Sistem</h5>
+                            <p class="text-muted small mb-0">Kustomisasi profil administrator, identitas aplikasi, serta preferensi notifikasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. RECENT REPORT -->
+    <section id="reports" class="py-5">
+        <div class="container py-4">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h2 class="fw-bold text-dark mb-1">Laporan Terbaru</h2>
+                    <p class="text-muted small mb-0">Daftar laporan santri yang baru dimasukkan ke dalam sistem</p>
+                </div>
+                <a href="statistik.html" class="btn btn-outline-primary btn-sm rounded-pill px-3">Lihat Statistik</a>
+            </div>
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="py-3 px-4">#</th>
+                                    <th class="py-3">Nama Santri</th>
+                                    <th class="py-3">Kategori Laporan</th>
+                                    <th class="py-3">Tanggal</th>
+                                    <th class="py-3">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-3 px-4 fw-bold">1</td>
+                                    <td class="py-3">Ahmad Fauzi</td>
+                                    <td class="py-3">Keterlambatan Shalat Berjamaah</td>
+                                    <td class="py-3">27 Oktober 2026</td>
+                                    <td class="py-3"><span class="badge bg-warning text-dark px-3 py-2 rounded-pill">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 fw-bold">2</td>
+                                    <td class="py-3">Muhammad Rizky</td>
+                                    <td class="py-3">Kelengkapan Atribut Seragam</td>
+                                    <td class="py-3">26 Oktober 2026</td>
+                                    <td class="py-3"><span class="badge bg-success px-3 py-2 rounded-pill">Approved</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 fw-bold">3</td>
+                                    <td class="py-3">Zaid Abdullah</td>
+                                    <td class="py-3">Perizinan Keluar Komplek</td>
+                                    <td class="py-3">25 Oktober 2026</td>
+                                    <td class="py-3"><span class="badge bg-danger px-3 py-2 rounded-pill">Reject</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FAQ -->
+    <section id="faq" class="py-5 bg-light border-top">
+        <div class="container py-4">
+            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                <h2 class="fw-bold text-dark mb-2">Pertanyaan Umum</h2>
+                <p class="text-muted">Hal yang sering ditanyakan seputar penggunaan sistem E-Report Santri</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion border-0 shadow-sm rounded-4 overflow-hidden" id="faqAccordion">
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Apa itu aplikasi E-Report Santri?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    E-Report Santri adalah sistem informasi berbasis web yang digunakan untuk mencatat, merekap, dan memantau laporan kedisiplinan serta kegiatan santri di IDN Boarding School.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Siapa saja yang dapat mengakses halaman admin?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Halaman admin dan statistik hanya dapat diakses oleh pengelola sistem, pengurus asrama, atau pihak berwenang yang memiliki kredensial login.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Bagaimana cara melihat statistik laporan bulanan?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Anda dapat mengklik tombol "Admin Area" atau menavigasi ke halaman Data Laporan untuk melihat grafik batang dan diagram status laporan secara lengkap.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="bg-white py-4 border-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-muted">&copy; 2026 <strong>E-Report Santri</strong>. IDN Boarding School. All rights reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="index.html" class="text-decoration-none text-muted small me-3">Beranda</a>
+                    <a href="#about" class="text-decoration-none text-muted small me-3">Tentang</a>
+                    <a href="statistik.html" class="text-decoration-none text-muted small">Admin Panel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
